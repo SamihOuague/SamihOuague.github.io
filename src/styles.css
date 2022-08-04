@@ -6,14 +6,13 @@ body {
 
 section {
     background-color: white;
-    overflow: hidden;
 }
 
 .primary {
     height: 100vh;
     background-color: #1c1d25;
     color: white;
-    font-size: 26px;
+    font-size: 30px;
 }
 
 nav {
@@ -36,13 +35,13 @@ li {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 90px;
     margin: 0;
 }
 
 p {
     margin: 0;
-    font-size: 21px;
+    font-size: 30px;
 }
 
 .primary-text {
@@ -65,7 +64,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 26px;
+    font-size: 30px;
     margin-top: 30px;
 }
 
@@ -109,7 +108,7 @@ a {
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .informations {
@@ -188,11 +187,10 @@ footer {
         display: block;
         border: 0;
         background-color: transparent;
-        font-size: 26px;
+        font-size: 30px;
         color: white;
         margin: 20px;
         align-self: flex-end;
-        cursor: pointer;
     }
 
     ul {
