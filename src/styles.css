@@ -105,7 +105,6 @@ a {
     display: flex;
     justify-content: space-around;
     padding: 80px;
-    flex-wrap: wrap-reverse;
 }
 
 
@@ -249,5 +248,9 @@ footer {
     
     ul.show {
         display: block;
+    }
+    
+    .sub-section {
+        flex-wrap: wrap-reverse;
     }
 }
