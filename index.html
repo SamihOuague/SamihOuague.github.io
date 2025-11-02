@@ -1,135 +1,162 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <!-- Google tag (gtag.js) -->
-        
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EPYZCTW3RJ"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
 
-            gtag('config', 'G-EPYZCTW3RJ');
-        </script>
-        <link rel="stylesheet" href="src/styles.css"/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <title>Samih Ouague</title>
-        <meta charset="utf-8"/>
-    </head>
-    <body>
-        <section class="primary">
-            <nav>
-                <img class="logo" src="src/images/logo.png" alt="Samih Ouague logo's">
-                <ul id="nav-list">
-                    <li><a href="#about-me">A Propos</a></li>
-                    <li><a href="#projects">Projets</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-                <button class="hamburger" id="hamburger">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </nav>
-            <div class="primary-area">
-                <div class="primary-text">
-                    <h1>Samih Ouague</h1>
-                    <p>Developpeur Full Stack</p>
-                    <a href="#about-me" class="button">A Propos</a>
-                </div>
-                <div class="socials">
-                    <div class="social">
-                        <a href="https://www.linkedin.com/in/samih-ouague-2b289a18b/">
-                            <i class="fa-brands fa-linkedin"></i>
-                        </a>
-                    </div>
-                    <div class="social">
-                        <a href="https://github.com/SamihOuague">
-                            <i class="fa-brands fa-square-github"></i>
-                        </a>
-                    </div>
-                    <div class="social">
-                        <a href="https://stackoverflow.com/users/14561196/souaguen">
-                            <i class="fa-brands fa-stack-overflow"></i>
-                        </a>
-                    </div>
-                    <div class="social">
-                        <a href="https://www.root-me.org/souaguen">
-                            <i class="fa-solid fa-skull-crossbones"></i>
-                        </a>
-                    </div>
-                </div>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Portfolio de Samih Ouaguénouni — Développeur Web & Logiciel Junior spécialisé en React, NodeJS et Python.">
+    <title>Samih Ouaguénouni | Développeur Web & Logiciel Junior</title>
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link rel="stylesheet" href="src/styles.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Samih<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger"><i class="fa-solid fa-bars"></i></div>
+        </nav>
+
+        <div class="hero" data-aos="fade-up">
+            <h1>Salut, je suis <span>Samih Ouaguénouni</span></h1>
+            <h2 data-aos="fade-up" data-aos-delay="150">Développeur Web & Logiciel Junior</h2>
+            <p class="intro" data-aos="fade-up" data-aos-delay="300">
+                Je conçois des solutions web performantes et intuitives, du front-end au back-end.
+                Passionné par le développement et l’innovation, j’aime transformer les idées en produits fonctionnels et
+                élégants.
+            </p>
+            <div class="hero-buttons" data-aos="zoom-in" data-aos-delay="400">
+                <a href="#projects" class="btn primary">Voir mes projets</a>
+                <a href="CV_Samih_OUAGUENOUNI.pdf" class="btn outline" target="_blank">Télécharger CV</a>
             </div>
-        </section>
-        <section class="sub-section" id="about-me">
-            <div class="informations">
-                <h2>A Propos</h2>
-                <p>
-                    Bonjour,
-                </p>
-                <br/><br/>
-                <p style="text-align: justify;">
-                    Je m'appelle Samih, développeur passionné de nouvelles technologies orientées full-stack avec de solides compétences en 
-                    JavaScript, Python, MySql, PHP, et HTML/CSS.<br/>
-                </p>
-                <br/><br/>
-                <p>
-                    Passionne d'IT, j'aime me documenter sur différents sujets et tester mes connaissances acquises par des exercices en ligne, 
-                    des réalisations de projets et des challenges de programmation /hacking (RootMe, CodingGame, Concours..).
-                </p>
-                <br/><br/>
-                <p>
-                    Je vous invite à explorer mon portfolio, ou vous trouverai une sélection de quelques projets également présents 
-                    sur mon profil <a href="https://github.com/SamihOuague" style="color: blue">GitHub</a>, accompagné de projets plus anciens.
-                </p>
-            </div>
-            <div class="headshot-container">
-                <img class="headshot" src="src/images/headshot.jpg" alt="Samih Ouague headshot"/>
-            </div>
-        </section>
-        <section class="sub-section-alt" id="projects">
-            <h2>Mes Projets</h2>
-            <div class="project-container">
-                <div class="project-card">
-                    <img src="src/images/project4.gif" alt="Project two image" class="project-image"/>
-                    <h3>Simple Block</h3>
-                    <p class="sub-text">Mini jeu avec son moteur graphique, developper en JavaScript avec l'element canvas ('2D' context).</p>
-                    <hr/>
-                    <p class="sub-text"><a class="project-link" href="https://www.youtube.com/watch?v=8Rz7maeyzmc">Voir plus</a></p>
-                </div>
-                <div class="project-card">
-                    <img src="src/images/project3.png" alt="Project two image" class="project-image"/>
-                    <h3>EZ Commerce</h3>
-                    <p class="sub-text">Site e-commerce Javascript (MongoDB, Express, ReactJS, NodeJS, Docker..), avec system de paiement stripe.</p>
-                    <hr/>
-                    <p class="sub-text"><a class="project-link" href="https://github.com/SamihOuague/ecommerce">Voir plus</a></p>
-                </div>
-                <div class="project-card">
-                    <img src="src/images/project1.png" alt="Project one image" class="project-image"/>
-                    <h3>Bot Crypto (Binance API)</h3>
-                    <p class="sub-text">Application Python et NodeJS, dont le role est d'appliquer une strategie defini a l'avance.</p>
-                    <hr/>
-                    <p class="sub-text"><a class="project-link" href="https://github.com/SamihOuague/CryptoBot_MicroServices">Voir plus</a></p>
-                </div>
-                <div class="project-card">
-                    <img src="src/images/project2.png" alt="Project two image" class="project-image"/>
-                    <h3>Phaser Game</h3>
-                    <p class="sub-text">Jeu connecte avec tiktok grace a NodeJS et Socket.io, concu l'aide de PhaserJS.</p>
-                    <hr/>
-                    <p class="sub-text"><a class="project-link" href="https://github.com/SamihOuague/livestream_game">Voir plus</a></p>
-                </div>
-            </div>
-        </section>
-        <footer id="contact">
-            <h2>Me Contacter</h2>
-            <p>ouaguenouni.samih@gmail.com</p>
-        </footer>
-        <div class="cookie">
-            <p class="cookie--text">Ce site utilise des cookies dans le but d'analyser le traffic.<a href="#">En savoir plus</a></p>
-            <div class="cookie__btngroup" id="close--btn"><i class="fa-sharp fa-solid fa-xmark"></i></div>
         </div>
-        <script src="src/app.js"></script>
-    </body>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container about">
+            <img src="src/images/headshot.jpg" alt="Samih Ouaguénouni" class="about-img" data-aos="zoom-in" />
+            <div class="about-text" data-aos="fade-left">
+                <h2>À propos</h2>
+                <p>
+                    Je suis un développeur web et logiciel passionné par la création de solutions digitales sur mesure.
+                    Mon approche repose sur la performance, la simplicité et l’expérience utilisateur.
+                </p>
+                <p>
+                    Je maîtrise les technologies modernes du web (React, NodeJS, Python, MongoDB, Docker...) et je
+                    m’efforce d’écrire un code propre, lisible et durable.
+                </p>
+                <p>
+                    Curieux et en constante évolution, je me forme en continu via des projets personnels, des
+                    plateformes comme RootMe ou Codingame, et des programmes tels que la <b>CS50</b> et l’<b>École
+                        42</b>.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section alt">
+        <div class="container">
+            <h2 data-aos="fade-up">Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill" data-aos="flip-up"><i class="fa-brands fa-react"></i> ReactJS</div>
+                <div class="skill" data-aos="flip-up" data-aos-delay="100"><i class="fa-brands fa-node-js"></i> NodeJS
+                </div>
+                <div class="skill" data-aos="flip-up" data-aos-delay="200"><i class="fa-brands fa-python"></i> Python
+                </div>
+                <div class="skill" data-aos="flip-up" data-aos-delay="300"><i class="fa-solid fa-database"></i> SQL /
+                    MongoDB</div>
+                <div class="skill" data-aos="flip-up" data-aos-delay="400"><i class="fa-brands fa-docker"></i> Docker
+                </div>
+                <div class="skill" data-aos="flip-up" data-aos-delay="500"><i class="fa-brands fa-github"></i> Git /
+                    GitHub</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 data-aos="fade-up">Projets récents</h2>
+            <div class="projects-grid">
+
+                <!-- ImmoAlerte -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="src/images/immoalerte.png" alt="ImmoAlerte Paris">
+                    <h3>ImmoAlerte Paris</h3>
+                    <p>
+                        Plateforme d’alerte immobilière permettant aux utilisateurs de rechercher des biens par critères
+                        précis
+                        (localisation, prix, surface...) et de recevoir automatiquement une alerte par e-mail dès qu’un
+                        bien correspondant est publié.
+                        Intégration d’un moteur de recherche avec filtres dynamiques et système d’envoi automatisé.
+                    </p>
+                    <a href="https://immoalerte-paris.fr" class="btn small" target="_blank">Visiter le site</a>
+                </div>
+
+                <!-- MiniRT -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="src/images/minirt.png" alt="MiniRT 42">
+                    <h3>MiniRT (École 42)</h3>
+                    <p>
+                        Ray tracer minimaliste développé en langage C dans le cadre du cursus de l’École 42.
+                        Rendu 3D en temps réel de scènes complexes (objets, lumières, ombres, reflets) à partir de
+                        fichiers de configuration.
+                        Projet axé sur la gestion de la mémoire, les calculs vectoriels et les algorithmes
+                        d’intersection.
+                    </p>
+                    <a href="https://github.com/SamihOuague/minirt42" class="btn small" target="_blank">Voir sur
+                        GitHub</a>
+                </div>
+
+                <!-- CryptoBot -->
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="src/images/cryptobot.png" alt="CryptoBot MicroServices">
+                    <h3>CryptoBot MicroServices</h3>
+                    <p>
+                        Service backend permettant de lancer un bot de trading automatisé interagissant avec l’API
+                        Binance.
+                        Développé avec une architecture microservices et une librairie personnelle pour simplifier les
+                        appels API.
+                        Le bot exécute des stratégies de trading en temps réel et gère les ordres automatiquement.
+                    </p>
+                    <a href="https://github.com/SamihOuague/CryptoBot_MicroServices" class="btn small"
+                        target="_blank">Voir sur GitHub</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact" class="section alt" data-aos="fade-up">
+        <div class="container contact">
+            <h2>Contact</h2>
+            <p>📧 ouaguenouni.samih@gmail.com</p>
+            <div class="socials">
+                <a href="https://linkedin.com/in/samih-ouague" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/SamihOuague" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://stackoverflow.com/users/14561196/souaguen" target="_blank"><i
+                        class="fa-brands fa-stack-overflow"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Samih Ouaguénouni — Tous droits réservés</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="src/app.js"></script>
+</body>
+
 </html>

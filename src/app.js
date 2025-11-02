@@ -1,14 +1,14 @@
-const humburger = document.getElementById("hamburger");
-const navList = document.getElementById("nav-list");
-const closeBtn = document.getElementById("close--btn");
+// Menu burger
+const burger = document.querySelector('.burger');
+const navLinks = document.querySelector('.nav-links');
 
-function toggleButton() {
-    navList.classList.toggle("show");
-}
+burger.addEventListener('click', () => {
+  navLinks.classList.toggle('show');
+});
 
-function closeButton() {
-    closeBtn.parentNode.classList.toggle("disabled");
-}
-
-humburger.addEventListener("click", toggleButton);
-closeBtn.addEventListener("click", closeButton);
+// Animation AOS
+AOS.init({
+  duration: 1000,
+  once: true,
+  offset: 100
+});
