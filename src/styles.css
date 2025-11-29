@@ -10,6 +10,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -29,6 +30,7 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   background: radial-gradient(circle at top left, #1e2329, #0d1117);
+  min-height: 100vh;
 }
 
 .navbar {

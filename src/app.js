@@ -7,9 +7,10 @@ burger.addEventListener('click', () => {
   navLinks.classList.toggle('show');
 });
 
+
 // Animation AOS
 AOS.init({
   duration: 1000,
   once: true,
-  offset: 100
+  offset: 200
 });

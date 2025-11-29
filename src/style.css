@@ -204,8 +204,8 @@ body {
 .dynamic-fields.active {
     display: contents;
 }
+
 header {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -253,4 +253,103 @@ header {
   font-size: 24px;
   cursor: pointer;
   color: var(--text);
+}
+
+@media (max-width: 992px) {
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .intro {
+    font-size: 15px;
+  }
+
+  .section {
+    padding: 80px 8%;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Navbar mobile */
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: var(--bg-alt);
+    position: absolute;
+    top: 70px;
+    right: 10%;
+    width: 200px;
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  /* Hero centré sur mobile */
+  .hero {
+    margin-top: 0;
+    padding: 0 8%;
+    min-height: 85vh;
+  }
+
+  .hero h1 {
+    font-size: 34px;
+  }
+
+  .hero h2 {
+    font-size: 18px;
+  }
+
+  .intro {
+    font-size: 15px;
+    margin-top: 15px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .btn {
+    width: 80%;
+    max-width: 280px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .about {
+    text-align: center;
+  }
+
+  .about-text {
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+
+  .intro {
+    font-size: 14px;
+  }
+
+  .skills-grid, .projects-grid {
+    gap: 20px;
+  }
+
+  .btn {
+    font-size: 14px;
+    padding: 12px 24px;
+  }
 }
