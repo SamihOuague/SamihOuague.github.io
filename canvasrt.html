@@ -22,7 +22,12 @@
         </nav>
     </header>
     <div class="container">
-        <div class="header">
+        <!-- Canvas -->
+        <div class="canvas-wrapper">
+            <canvas id="myCanvas" width="800" height="500"></canvas>
+        </div>
+
+                <div class="header">
             <h1>🎨 Canvas Ray Tracer</h1>
             <p>Configuration de la scène 3D</p>
         </div>
@@ -103,11 +108,6 @@
 
             <button class="btn-primary" style="width: 100%;">🔄 Mettre à jour la scène</button>
         </form>
-
-        <!-- Canvas -->
-        <div class="canvas-wrapper">
-            <canvas id="myCanvas" width="800" height="500"></canvas>
-        </div>
 
         <!-- Gestion des objets -->
         <form id="object" class="objects-section">
