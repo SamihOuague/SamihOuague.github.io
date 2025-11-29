@@ -219,12 +219,14 @@ header {
   padding: 25px 10%;
   position: relative;
   z-index: 10;
+  color: #ffffff;
 }
 
 .logo {
   font-size: 26px;
   font-weight: 700;
   color: var(--text);
+  text-decoration: none;
 }
 
 .logo span {
