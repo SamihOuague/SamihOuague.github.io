@@ -10,7 +10,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 html {
@@ -26,7 +25,6 @@ body {
 
 /* NAVBAR */
 header {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -46,6 +44,7 @@ header {
   font-size: 26px;
   font-weight: 700;
   color: var(--text);
+  text-decoration: none;
 }
 
 .logo span {
