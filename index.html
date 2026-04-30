@@ -2,22 +2,20 @@
 <html lang="fr">
 
 <head>
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EPYZCTW3RJ"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-EPYZCTW3RJ');
     </script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-        content="Portfolio de Samih Ouaguénouni — Développeur Web & Logiciel Junior spécialisé en React, NodeJS et Python.">
-    <title>Samih Ouaguénouni | Développeur Web & Logiciel Junior</title>
+        content="Portfolio de Samih Ouaguénouni — Développeur Backend & Systèmes, spécialisé en Node.js, Python et architectures scalables.">
+    <title>Samih Ouaguénouni | Développeur Backend & Systèmes</title>
 
-    <!-- Fonts & Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
@@ -30,7 +28,7 @@
             <a href="/" class="logo">Samih<span>.</span></a>
             <ul class="nav-links">
                 <li><a href="#about">À propos</a></li>
-                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#skills">Stack</a></li>
                 <li><a href="#projects">Projets</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -38,12 +36,14 @@
         </nav>
 
         <div class="hero" data-aos="fade-up">
-            <h1>Salut, je suis <span>Samih Ouaguenouni</span></h1>
-            <h2 data-aos="fade-up" data-aos-delay="150">Développeur Web & Logiciel Junior</h2>
+            <h1>Bonjour, je suis <span>Samih Ouaguenouni</span></h1>
+            <h2 data-aos="fade-up" data-aos-delay="150">Développeur Backend & Systèmes</h2>
             <p class="intro" data-aos="fade-up" data-aos-delay="300">
-                Je conçois des solutions web performantes et intuitives, du front-end au back-end.
-                Passionné par le développement et l’innovation, j’aime transformer les idées en produits fonctionnels et
-                élégants.
+                Je conçois des services backend robustes et scalables, avec une approche orientée architecture.
+                Je travaille principalement avec Node.js et Python pour développer des APIs, des systèmes temps réel
+                et des plateformes intégrant des modèles d’intelligence artificielle.
+                Mon objectif est de construire des systèmes fiables, maintenables et adaptés à des environnements
+                de production.
             </p>
             <div class="hero-buttons" data-aos="zoom-in" data-aos-delay="400">
                 <a href="#projects" class="btn primary">Voir mes projets</a>
@@ -58,17 +58,21 @@
             <div class="about-text" data-aos="fade-up">
                 <h2>À propos</h2>
                 <p>
-                    Je suis un développeur web et logiciel passionné par la création de solutions digitales sur mesure.
-                    Mon approche repose sur la performance, la simplicité et l’expérience utilisateur.
+                    Développeur orienté backend, je m’intéresse à la conception de systèmes performants
+                    et bien structurés. Je privilégie des architectures claires, une bonne séparation
+                    des responsabilités et un code maintenable sur le long terme.
                 </p>
                 <p>
-                    Je maîtrise les technologies modernes du web (React, NodeJS, Python, MongoDB, Docker...) et je
-                    m’efforce d’écrire un code propre, lisible et durable.
+                    J’ai l’habitude de travailler avec Node.js, Python et des bases de données SQL/NoSQL
+                    pour développer des APIs, des services temps réel et des outils backend.
+                    J’utilise également Docker pour structurer les environnements et faciliter le déploiement.
                 </p>
                 <p>
-                    Curieux et en constante évolution, je me forme en continu via des projets personnels, des
-                    plateformes comme RootMe ou Codingame, et des programmes tels que la <b>CS50</b> et l’<b>École
-                        42</b>.
+                    Je développe actuellement des projets autour des systèmes LLM (Large Language Models),
+                    avec des architectures incluant streaming, gestion de conversations et intégration
+                    de données (RAG).
+                    Je continue de progresser à travers des projets concrets et des formations comme CS50
+                    et le cursus de l’École 42.
                 </p>
             </div>
         </div>
@@ -76,7 +80,7 @@
 
     <section id="skills" class="section alt">
         <div class="container">
-            <h2 data-aos="fade-up">Compétences</h2>
+            <h2 data-aos="fade-up">Stack technique</h2>
             <div class="skills-grid">
                 <div class="skill" data-aos="flip-up"><i class="fa-brands fa-react"></i> ReactJS</div>
                 <div class="skill" data-aos="flip-up" data-aos-delay="100"><i class="fa-brands fa-node-js"></i> NodeJS
@@ -95,60 +99,54 @@
 
     <section id="projects" class="section">
         <div class="container">
-            <h2 data-aos="fade-up">Projets récents</h2>
+            <h2 data-aos="fade-up">Projets</h2>
             <div class="projects-grid">
 
-                <!-- ImmoAlerte -->
-                <a href="https://www.immoalerte-paris.fr/" class="project-card" data-aos="fade-up" data-aos-delay="100">
-                    <img src="src/images/immoalerte.png" alt="ImmoAlerte Paris">
-                    <h3>ImmoAlerte Paris</h3>
+                <a href="https://github.com/SamihOuague/LocalAssistantAI" class="project-card" data-aos="fade-up">
+                    <img src="src/images/chatllm.png" alt="AI Platform ChatLLM">
+                    <h3>AI Platform — ChatLLM Service</h3>
                     <p>
-                        Plateforme d’alerte immobilière permettant aux utilisateurs de rechercher des biens par critères
-                        précis
-                        (localisation, prix, surface...) et de recevoir automatiquement une alerte par e-mail dès qu’un
-                        bien correspondant est publié.
-                        Intégration d’un moteur de recherche avec filtres dynamiques et système d’envoi automatisé.
+                        Plateforme backend permettant de gérer des interactions avec des modèles de langage (LLM) en
+                        temps réel.
+                        Architecture orientée services avec abstraction des providers (Ollama, vLLM), streaming via
+                        WebSocket
+                        et gestion des conversations. Intégration en cours d’un système RAG pour enrichir les réponses
+                        avec des données externes.
                     </p>
-                    <p style="color: white;" class="btn small" target="_blank">Visiter le site</p>
+                    <p style="color: white;" class="btn small">Projet en cours</p>
                 </a>
 
-                <!-- MiniRT -->
                 <a href="canvasrt.html" class="project-card" data-aos="fade-up" data-aos-delay="200">
                     <img src="src/images/minirt.png" alt="MiniRT 42">
                     <h3>MiniRT (École 42)</h3>
                     <p>
-                        Ray tracer minimaliste développé en langage C dans le cadre du cursus de l’École 42.
-                        Rendu 3D en temps réel de scènes complexes (objets, lumières, ombres, reflets) à partir de
-                        fichiers de configuration.
-                        Projet axé sur la gestion de la mémoire, les calculs vectoriels et les algorithmes
-                        d’intersection.
+                        Ray tracer développé en C avec rendu 3D de scènes complexes.
+                        Implémentation des calculs d’intersection, gestion des lumières et des ombres,
+                        et optimisation mémoire. Projet axé sur la rigueur algorithmique,
+                        les performances et la compréhension des systèmes bas niveau.
                     </p>
-                    <p style="color: white;" class="btn small" target="_blank">Voir une demo</p>
+                    <p style="color: white;" class="btn small">Voir une démo</p>
                 </a>
 
-                <!-- CryptoBot -->
-                <a href="https://github.com/SamihOuague/CryptoBot_MicroServices" class="project-card" data-aos="fade-up"
-                    data-aos-delay="300">
-                    <img src="src/images/cryptobot.png" alt="CryptoBot MicroServices">
-                    <h3>CryptoBot MicroServices</h3>
+                <a href="https://www.immoalerte-paris.fr/" class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="src/images/immoalerte.png" alt="ImmoAlerte Paris">
+                    <h3>ImmoAlerte Paris</h3>
                     <p>
-                        Service backend permettant de lancer un bot de trading automatisé interagissant avec l’API
-                        Binance.
-                        Développé avec une architecture microservices et une librairie personnelle pour simplifier les
-                        appels API.
-                        Le bot exécute des stratégies de trading en temps réel et gère les ordres automatiquement.
+                        Plateforme d’alerte immobilière permettant de rechercher des biens selon des critères précis
+                        et de recevoir des notifications automatisées. Développement d’un moteur de recherche dynamique
+                        avec filtres et d’un backend de traitement pour la gestion et l’envoi des alertes.
                     </p>
-                    <p style="color: white;" class="btn small" target="_blank">Voir sur GitHub</p>
+                    <p style="color: white;" class="btn small">Visiter le site</p>
                 </a>
 
             </div>
         </div>
     </section>
 
-
     <section id="contact" class="section alt" data-aos="fade-up">
         <div class="container contact">
             <h2>Contact</h2>
+            <p>Disponible pour alternance / opportunités backend</p>
             <p>📧 ouaguenouni.samih@gmail.com</p>
             <div class="socials">
                 <a href="https://linkedin.com/in/samih-ouague" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
